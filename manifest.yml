@@ -1,0 +1,9 @@
+---
+applications:
+- name: hazelcast-reader-mark
+  memory: 512M
+  instances: 1
+  path: target/reader-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/hazelcast/java-buildpack.git
+  # stack: cflinuxfs2
+
